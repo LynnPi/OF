@@ -35,13 +35,11 @@ public class DeployDragHandeler : MonoBehaviour, IBeginDragHandler, IDragHandler
         if (DeployUnitUIElement.CurrentDeployMode == DeployMode.None) {
             DeployUnitUIElement.CurrentDeployMode = DeployMode.Drag;
         }
-        //StartPosition_ = transform.localPosition;
     }
 
     public void OnDrag( PointerEventData eventData ) {
         if (!InDragMode || !EnableDrag) return;
-
-        //transform.position = CameraManager.Instance.UICamera.ScreenToWorldPoint( Input.mousePosition );
+		
         if( Item.IsDragging ) return;
 
         if (CheckOnHoverGrid()) {
@@ -54,10 +52,8 @@ public class DeployDragHandeler : MonoBehaviour, IBeginDragHandler, IDragHandler
         if (!InDragMode || !EnableDrag) return;
 
         CameraManager.SetTouchActive(true);
-        //BackToOriginPosition();
         CallbackOnHoverUI(eventData);  
         ItemBeingDragged = null;
-        //CallbackOnHoverGrid();
         OnReleaseFinger();
     }
     #endregion

@@ -1,0 +1,68 @@
+ManifestFileVersion: 0
+CRC: 142117630
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cf0859fbb36578f70a50b73564e2839d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3041a0231a9427db6ee2e02b8df3a47a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 96
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 48a02d42967e31f4493786d9d4dd9496, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/OF_res/ef/light_missle.prefab
+- Assets/OF_res/ef/material/Line_09d.mat
+- Assets/OF_res/ef/textures/000232.tga
+- Assets/OF_res/ef/textures/T_D_fx_ls_05.png
+- Assets/Scripts/EffectSuport/DelayPlayRepeat.cs
+- Assets/OF_res/ef/material/M_ring_02.mat
+- Assets/OF_res/ef/textures/ring02.png
+- Assets/OF_res/ef/material/D_M_fire_11.mat
+- Assets/OF_res/ef/animation/missle_light.controller
+- Assets/OF_res/ef/textures/T_D_fx_mask_09..png
+- Assets/OF_res/ef/animation/missle.anim
+- Assets/OF_res/ef/material/M_ring_01.mat
+- Assets/OF_res/ef/textures/T_D_fx_ring_08.png
+- Assets/OF_res/ef/textures/T_D_fx_light_024.png
+- Assets/OF_res/ef/material/M_lizhi01.mat
+- Assets/OF_res/ef/textures/star07.tga
+- Assets/OF_res/ef/textures/star08.png
+- Assets/OF_res/ef/material/guang06.mat
+- Assets/OF_res/ef/mesh/ring07.FBX
+- Assets/OF_res/ef/material/Line_07d.mat
+- Assets/OF_res/ef/mesh/Materials/No Name.mat
+Dependencies: []

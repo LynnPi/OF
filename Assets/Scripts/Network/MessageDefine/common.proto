@@ -1,0 +1,38 @@
+package proto;
+import "config.proto";
+import "object.proto";
+import "game.proto";
+
+
+//消息头
+message MessageHead {
+    required int32 pid = 1;
+
+    //用于服务器之间的异步通迅
+    optional int32 mid = 2;
+    optional int32 reply_mid = 3;
+
+    //用于客户端的验证
+    optional int32 session_id = 4; //player的SN
+	optional int32 gid = 5;        //数组中的下标
+	optional int32 msgid = 6;    //消息流水号
+}
+
+//系统消息
+message S2CSystem {
+    enum Type {
+        InvalidSession = 1;
+        NotInGame = 2;
+    }
+
+    required Type msg_type = 1;
+}
+
+
+//login server验证
+message ServerVerify {
+    required int32 	id = 1;
+    optional uint32	ip = 2;
+    optional int32  port = 3;
+}
+

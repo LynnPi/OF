@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 183542818
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e1e68f7ba558f6a82769b28eb46ec0ee
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f40506aa72086764f010e2a611c98bc5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+Assets:
+- Assets/OF_res/ef/material/line.mat
+- Assets/OF_res/ef/BulletPrefabs/ls.prefab
+- Assets/OF_res/ef/textures/T_D_fx_mask_09.png
+Dependencies: []

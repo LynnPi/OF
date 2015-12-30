@@ -1,0 +1,52 @@
+ManifestFileVersion: 0
+CRC: 3332495064
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eeebd46d96813193b31d3a778e297137
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fec13e3a2866c9c2763f0479ec267c7b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: be238849b9f83f4488dc2268c8ef686f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/OF_res/ef/animation/op_loading01.anim
+- Assets/OF_res/ef/material/D_M_star_04.mat
+- Assets/OF_res/ef/textures/escape.png
+- Assets/OF_res/ef/textures/T_EFX_Flare_Long_01.png
+- Assets/OF_res/ef/animation/escape.anim
+- Assets/OF_res/ef/mesh/plane.FBX
+- Assets/OF_res/ef/escape.prefab
+- Assets/OF_res/ef/textures/select_move.png
+- Assets/Scripts/EffectSuport/TimeObjectDestructor.cs
+- Assets/OF_res/ef/animation/escape.controller
+- Assets/OF_res/ef/mesh/Materials/escape.mat
+- Assets/OF_res/ef/animation/op_loading.controller
+- Assets/OF_res/ef/mesh/Materials/No Name.mat
+Dependencies: []

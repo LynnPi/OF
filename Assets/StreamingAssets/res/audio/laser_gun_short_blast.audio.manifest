@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2150149769
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e765ce93cdf78d46c422607627455d4c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/OF_res/audio/laser_gun_short_blast.wav
+Dependencies: []

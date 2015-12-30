@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+CRC: 842520903
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 74c263abb6967554226791486f757ec0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6eb8ad1b2b648588cf93de09de64f7fd
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -2095666955, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1573420865, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/UI/panel/battle_skill_panel/panel/sprite/destroy_light.mat
+- Assets/UI/panel/battle_skill_panel/panel/animation/destroy_on_skill_list_show.anim
+- Assets/UI/panel/battle_skill_panel/panel/animation/show.anim
+- Assets/UI/panel/battle_skill_panel/panel/animation/normal.anim
+- Assets/UI/panel/battle_skill_panel/panel/animation/destroy_on_ctrl_btn_show.anim
+- Assets/UI/panel/battle_skill_panel/panel/animation/skill_panel.controller
+- Assets/UI/panel/battle_skill_panel/panel/BattleSkillPanel.prefab
+Dependencies:
+- D:/__WorkSpace/WorkSpace/OmniverseFrontier/GameRes/trunk/android/res/ui/public.ui
+- D:/__WorkSpace/WorkSpace/OmniverseFrontier/GameRes/trunk/android/res/ui/atlas_battle.ui

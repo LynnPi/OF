@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 3506345721
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 548b0273d79acb48b2e9667b1aff5f57
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dfaf5fa1d3c0e28fdf7a41cb954d0beb
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 96
+  Script: {instanceID: 0}
+Assets:
+- Assets/OF_res/ef/mesh/plane.FBX
+- Assets/OF_res/ef/textures/T_D_fx_light_024.png
+- Assets/OF_res/ef/BulletPrefabs/missle_aoe.prefab
+- Assets/OF_res/ef/material/guang06.mat
+- Assets/OF_res/ef/mesh/Materials/No Name.mat
+Dependencies: []

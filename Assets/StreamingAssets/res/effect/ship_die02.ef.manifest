@@ -1,0 +1,58 @@
+ManifestFileVersion: 0
+CRC: 2042323926
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2c65064f560ef6b5bf802cde1f6971b3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ca0bdade4069b3f2215822b3513dca2b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 48a02d42967e31f4493786d9d4dd9496, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/OF_res/ef/textures/000232.tga
+- Assets/OF_res/ef/textures/T_D_fx_ls_05.png
+- Assets/Scripts/EffectSuport/DelayPlayRepeat.cs
+- Assets/OF_res/ef/material/M_ring_02.mat
+- Assets/OF_res/ef/textures/T_D_fx_light_028.png
+- Assets/OF_res/ef/material/D_M_light_34.mat
+- Assets/OF_res/ef/textures/ring02.png
+- Assets/OF_res/ef/ship_die02.prefab
+- Assets/OF_res/ef/material/D_M_fire_11.mat
+- Assets/OF_res/ef/textures/T_D_fx_mask_09..png
+- Assets/OF_res/ef/material/M_ring_01.mat
+- Assets/OF_res/model/Materials/jiutong.mat
+- Assets/OF_res/ef/textures/T_D_fx_ring_08.png
+- Assets/OF_res/ef/material/M_lizhi01.mat
+- Assets/OF_res/ef/material/jiutong.mat
+- Assets/Models_Library/SC-DFND01M/SC-DFND01M.png
+- Assets/OF_res/ef/textures/star07.tga
+- Assets/OF_res/model/suipian01.FBX
+- Assets/OF_res/ef/material/Line_07d.mat
+Dependencies: []

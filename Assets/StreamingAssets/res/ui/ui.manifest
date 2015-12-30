@@ -1,0 +1,129 @@
+ManifestFileVersion: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: battleresultpanel.ui
+      Dependencies:
+        Dependency_0: public.ui
+        Dependency_1: atlas_battle.ui
+    Info_1:
+      Name: public.ui
+      Dependencies:
+        Dependency_0: atlas_battle.ui
+    Info_2:
+      Name: deploypanel.ui
+      Dependencies:
+        Dependency_0: atlas_deploy.ui
+    Info_3:
+      Name: userstatuspanel.ui
+      Dependencies:
+        Dependency_0: public.ui
+        Dependency_1: atlas_user_status.ui
+    Info_4:
+      Name: battletarget.ui
+      Dependencies:
+        Dependency_0: atlas_battle.ui
+    Info_5:
+      Name: loginpanel.ui
+      Dependencies:
+        Dependency_0: atlas_login.ui
+    Info_6:
+      Name: deployitem.ui
+      Dependencies:
+        Dependency_0: atlas_deploy.ui
+    Info_7:
+      Name: battleshipinfo_ad_e.ui
+      Dependencies:
+        Dependency_0: public.ui
+        Dependency_1: atlas_battle.ui
+    Info_8:
+      Name: lostunit.ui
+      Dependencies:
+        Dependency_0: public.ui
+    Info_9:
+      Name: battleshipinfo_ad_p.ui
+      Dependencies:
+        Dependency_0: public.ui
+        Dependency_1: atlas_battle.ui
+    Info_10:
+      Name: battleshipinfo_low_e.ui
+      Dependencies:
+        Dependency_0: public.ui
+        Dependency_1: atlas_battle.ui
+    Info_11:
+      Name: battleshipinfo_low_p.ui
+      Dependencies:
+        Dependency_0: public.ui
+        Dependency_1: atlas_battle.ui
+    Info_12:
+      Name: retreatpopwindow.ui
+      Dependencies:
+        Dependency_0: public.ui
+        Dependency_1: atlas_pop_window.ui
+    Info_13:
+      Name: samplenotepopwindow.ui
+      Dependencies:
+        Dependency_0: public.ui
+        Dependency_1: atlas_pop_window.ui
+    Info_14:
+      Name: deployunitmenu.ui
+      Dependencies:
+        Dependency_0: atlas_deploy.ui
+    Info_15:
+      Name: deploycancelbtn.ui
+      Dependencies:
+        Dependency_0: atlas_deploy.ui
+    Info_16:
+      Name: battlecameracontrolpanel.ui
+      Dependencies:
+        Dependency_0: public.ui
+        Dependency_1: atlas_battle.ui
+    Info_17:
+      Name: battleminimappanel.ui
+      Dependencies:
+        Dependency_0: atlas_battle.ui
+    Info_18:
+      Name: battleskillpanel.ui
+      Dependencies:
+        Dependency_0: public.ui
+        Dependency_1: atlas_battle.ui
+    Info_19:
+      Name: battleretreatentrance.ui
+      Dependencies:
+        Dependency_0: public.ui
+    Info_20:
+      Name: battleskillentrance.ui
+      Dependencies:
+        Dependency_0: atlas_battle.ui
+    Info_21:
+      Name: battleskillbutton.ui
+      Dependencies:
+        Dependency_0: public.ui
+        Dependency_1: atlas_battle.ui
+    Info_22:
+      Name: deployfollowicon.ui
+      Dependencies: {}
+    Info_23:
+      Name: deploycameracontrol.ui
+      Dependencies:
+        Dependency_0: public.ui
+        Dependency_1: atlas_deploy.ui
+    Info_24:
+      Name: deploycameramaskfade.ui
+      Dependencies:
+        Dependency_0: atlas_battle.ui
+    Info_25:
+      Name: atlas_battle.ui
+      Dependencies: {}
+    Info_26:
+      Name: atlas_deploy.ui
+      Dependencies: {}
+    Info_27:
+      Name: atlas_login.ui
+      Dependencies: {}
+    Info_28:
+      Name: atlas_user_status.ui
+      Dependencies: {}
+    Info_29:
+      Name: atlas_pop_window.ui
+      Dependencies: {}

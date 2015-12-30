@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2866078513
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 61dc8e58b76e75777e836c8e6e66e0b7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00ffc586b3c4c12c72c7fed589b81235
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/UI/public/atlas/pop_window/stretch_Light.png
+- Assets/UI/public/atlas/pop_window/stretch_frame_3.png
+- Assets/UI/public/atlas/pop_window/stretch_3.png
+- Assets/UI/public/atlas/pop_window/stretch_4.png
+- Assets/UI/public/atlas/pop_window/stretch_frame_4.png
+Dependencies: []

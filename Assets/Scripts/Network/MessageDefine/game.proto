@@ -1,0 +1,47 @@
+package proto;
+import "object.proto";
+import "config.proto";
+
+//登录协议
+message C2SLogin {
+    required string account = 1;
+    required string pasw = 2;
+    required int32 version = 3;
+    optional string pf = 4;
+    optional string extparam = 5;
+	optional int32 pid = 6;
+	optional string gameversion = 7;
+	optional string phonemark = 8;
+}
+
+message S2CLogin {
+    enum ErrorCode {
+        OK = 1;
+        InvalidAccountOrPassword = 2;
+        LoginServerException = 3;
+        TimeOut = 4;
+        InvalidVersion = 5;
+        Blocked = 6;
+    }
+
+    required ErrorCode error_code = 1;
+    optional Player player = 2;
+    optional uint32 server_time = 3;
+}
+
+// 战斗帧信息
+message S2CFightFrameInfo{
+	required int32 framecount = 1;              // 当前执行到的帧数
+	required int32 fighttick  = 2;  	        // 当前战场的tick  毫秒级单位
+	repeated UnitBehavior behaviorsequences = 3;  // 单位行为序列
+}
+
+// 战报
+message S2CFightReport{
+	enum Result {
+		Win = 1;         // 胜利
+		Fail = 2;        // 失败
+	}
+	
+	required Result fightresult = 1; 
+}

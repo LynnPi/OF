@@ -1,0 +1,62 @@
+ManifestFileVersion: 0
+CRC: 1040572927
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4b9dc7e9e5db3810a9d724da4a568e4a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f76d9a128f54f4802622bfe0c0808521
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/UI/public/atlas/dynamic/icon_Laser_2.png
+- Assets/UI/public/atlas/dynamic/icon_substrate2_1.png
+- Assets/UI/public/atlas/dynamic/icon_Gun.png
+- Assets/UI/public/atlas/dynamic/art_d.png
+- Assets/UI/public/atlas/dynamic/frame_fleet.png
+- Assets/UI/public/atlas/dynamic/icon_Gun_2.png
+- Assets/UI/public/atlas/dynamic/stretch_Button_2.png
+- Assets/UI/public/atlas/dynamic/icon_Laser.png
+- Assets/UI/public/font/ARDESTINE.ttf
+- Assets/UI/public/atlas/dynamic/icon_substrate2_2.png
+- Assets/UI/public/atlas/dynamic/stretch_life.png
+- Assets/UI/public/atlas/dynamic/icon_scrlb01g.png
+- Assets/UI/panel/battle_ship_info/animation/ShipSelect.anim
+- Assets/UI/public/font/number.TTF
+- Assets/UI/panel/battle_ship_info/animation/ShipUnderAttack.anim
+- Assets/UI/public/atlas/dynamic/art_a.png
+- Assets/UI/public/atlas/dynamic/icon_scrlb01l.png
+- Assets/UI/public/atlas/dynamic/icon_round_2.png
+- Assets/UI/public/atlas/dynamic/art_b.png
+- Assets/UI/panel/battle_ship_info/animation/BattleShipInfo.controller
+- Assets/UI/public/atlas/dynamic/icon_Missile.png
+- Assets/UI/public/atlas/dynamic/icon_cs01c.png
+- Assets/UI/public/atlas/dynamic/icon_substrate_2.png
+- Assets/UI/public/atlas/dynamic/art_v.png
+- Assets/UI/public/atlas/dynamic/stretch_Button.png
+- Assets/UI/public/atlas/dynamic/art_c.png
+- Assets/UI/public/atlas/dynamic/stretch_shield_2.png
+- Assets/UI/public/atlas/dynamic/icon_Missile_2.png
+- Assets/UI/public/atlas/dynamic/art_f.png
+- Assets/UI/public/atlas/dynamic/icon_round.png
+- Assets/UI/public/atlas/dynamic/icon_fs02m.png
+- Assets/UI/public/atlas/dynamic/art_s.png
+Dependencies:
+- D:/__WorkSpace/WorkSpace/OmniverseFrontier/GameRes/trunk/android/res/ui/atlas_battle.ui

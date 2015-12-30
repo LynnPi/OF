@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 3946249964
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7c82af6ca795f5797c7ac205be135a8f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 67cbfb879555d04024d1bee94287b73e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+Assets:
+- Assets/UI/panel/pop_window/sample_note_pop_window/animation/show.anim
+- Assets/UI/panel/pop_window/sample_note_pop_window/animation/SampleNotePopWindow.controller
+- Assets/UI/panel/pop_window/sample_note_pop_window/SampleNotePopWindow.prefab
+Dependencies:
+- D:/__WorkSpace/WorkSpace/OmniverseFrontier/GameRes/trunk/android/res/ui/public.ui
+- D:/__WorkSpace/WorkSpace/OmniverseFrontier/GameRes/trunk/android/res/ui/atlas_pop_window.ui

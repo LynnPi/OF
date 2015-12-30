@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 482320424
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dc0a1168170e14da986f6d35a4712363
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 390c0aaa8797f00fbbbbfbb8df10b151
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 808511310, guid: 74b892ea61b5f4945938bd9a50aa792e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/GameRes/trunk/android/res/ship/define/sc-cs01c.asset
+- Assets/Plugins/GPPModel.dll
+Dependencies: []

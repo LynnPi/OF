@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2934044511
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 38ba4bea977cae61f9f68080bb046cfd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/OF_res/audio/login.wav
+Dependencies: []

@@ -1,0 +1,59 @@
+ManifestFileVersion: 0
+CRC: 2904221276
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8ca3f9a15201239adfda1d89caae3216
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 75957c18d05791510cbdd301a328d69f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/UI/public/atlas/battle/button_skill_2.png
+- Assets/UI/public/atlas/battle/art_gt.png
+- Assets/UI/public/atlas/battle/icon_re.png
+- Assets/UI/public/atlas/battle/button_frame.png
+- Assets/UI/public/atlas/battle/icon_resource_1.png
+- Assets/UI/public/atlas/battle/stretch_title_4.png
+- Assets/UI/public/atlas/battle/icon_fier.png
+- Assets/UI/public/atlas/battle/icon_hr.png
+- Assets/UI/public/atlas/battle/icon_came.png
+- Assets/UI/public/atlas/battle/icon_select_2.png
+- Assets/UI/public/atlas/battle/stretch_frame_2.png
+- Assets/UI/public/atlas/battle/stretch_substrate.png
+- Assets/UI/public/atlas/battle/stretch_frame.png
+- Assets/UI/public/atlas/battle/stretch_title_6.png
+- Assets/UI/public/atlas/battle/icon_select.png
+- Assets/UI/public/atlas/battle/frame_fleet_2.png
+- Assets/UI/public/atlas/battle/button_skill_1.png
+- Assets/UI/public/atlas/battle/stretch_Speed_1.png
+- Assets/UI/public/atlas/battle/stretch_Speed_2.png
+- Assets/UI/public/atlas/battle/icon_select_3.png
+- Assets/UI/public/atlas/battle/star09.png
+- Assets/UI/public/atlas/battle/icon_skill_1.png
+- Assets/UI/public/atlas/battle/frame_fleet_1.png
+- Assets/UI/public/atlas/battle/icon_rh.png
+- Assets/UI/public/atlas/battle/icon_cs01c_2.png
+- Assets/UI/public/atlas/battle/icon_cs01c_3.png
+- Assets/UI/public/atlas/battle/stretch_Button3_2.png
+- Assets/UI/public/atlas/battle/stretch_Button3.png
+- Assets/UI/public/atlas/battle/icon_mini.png
+- Assets/UI/public/atlas/battle/art_lu.png
+- Assets/UI/public/atlas/battle/frame_fleet_3.png
+- Assets/UI/public/atlas/battle/stretch_title_5.png
+- Assets/UI/public/atlas/battle/icon_resource_2.png
+- Assets/UI/public/atlas/battle/stretch_Button2_2.png
+- Assets/UI/public/atlas/battle/icon_select_1.png
+- Assets/UI/public/atlas/battle/strech_mini.png
+- Assets/UI/public/atlas/battle/stretch_Button2.png
+- Assets/UI/public/atlas/battle/icon_cd.png
+- Assets/UI/public/atlas/battle/icon_resource_3.png
+- Assets/UI/public/atlas/battle/art_exp.png
+- Assets/UI/public/atlas/battle/icon_cs01c_4.png
+- Assets/UI/public/atlas/battle/icon_fleet.png
+Dependencies: []

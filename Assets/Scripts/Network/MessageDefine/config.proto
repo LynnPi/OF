@@ -1,0 +1,156 @@
+package proto;
+
+message UnitReference {
+    required int32 id = 1;
+    required string name = 2;
+	optional string unitclass = 3;				// 船级
+	optional int32 lv_max = 4;					// 单位最大等级
+	optional int32 unitstrait = 5;       		// 单位特征
+	optional int32 unitstype = 6;       		// 单位类型
+	optional int32 vol = 7;              		// 单位体积
+	optional bool stack = 8;          			// 是否可堆叠
+	optional int32 stack_num = 9;          		// 堆叠数目
+	optional int32 warp_cost = 10;   			// 跃迁能耗值
+	optional int32 durability = 11;    			// 单位耐久值
+	optional int32 durability_growthrate = 12; 	// 单位耐久成长率
+	optional int32 armor = 13;				 	// 单位装甲值
+	optional int32 armory_growthrate = 14;     	// 单位装甲值成长率
+	optional int32 energy = 15;                 // 单位能量值
+	optional int32 energy_growthrate = 16;     	// 单位能值量成长率
+	optional int32 shield_conversion_val = 17;  // 单位能量护盾转换值
+	optional int32 shield_conversion_val_growthrate = 18;  	// 单位能量护盾转换值成长率
+	optional int32 shuttle_team = 19;   // 基本舰载机组
+	optional int32 speed_max = 20; 		// 最大前移速度
+	optional int32 acc_speed = 21; 		// 加速度
+	optional int32 sw_speed = 22;  		// 侧移速度
+	optional int32 sw_priority_target = 23; 	 // 侧移判定目标
+	optional int32 sw_targetdecision_range = 24; // 侧翼判定范围
+	optional bool parts_hide = 25; 	//是否隐藏部件
+	optional int32 parts_1 = 26;   				// 部件1
+	optional int32 parts_1_rate = 27; 			// 部件1性能调整系数
+	optional int32 parts_1_replace_team = 28;	// 的可替换部件组
+	optional int32 parts_2 = 29;   				// 部件2
+	optional int32 parts_2_rate = 30; 			// 部件2性能调整系数
+	optional int32 parts_2_replace_team = 31; 	// 部件2的可替换部件组
+	optional int32 parts_3 = 32;   				// 部件3
+	optional int32 parts_3_rate = 33; 			// 部件3性能调整系数
+	optional int32 parts_3_replace_team = 34; 	// 部件3的可替换部件组
+	optional int32 parts_4 = 35;   				// 部件4
+	optional int32 parts_4_rate = 36; 			// 部件4性能调整系数
+	optional int32 parts_4_replace_team = 37; 	// 部件4的可替换部件组
+	optional int32 parts_5 = 38;   				// 部件5
+	optional int32 parts_5_rate = 39; 			// 部件5性能调整系数
+	optional int32 parts_5_replace_team = 40; 	// 部件5的可替换部件组
+	optional int32 parts_6 = 41;   				// 部件6
+	optional int32 parts_6_rate = 42; 			// 部件6性能调整系数
+	optional int32 parts_6_replace_team = 43; 	// 部件6的可替换部件组
+	optional string model_res = 44;  // 模型资源名称
+	optional string iconfile = 45;   // 图标名
+	optional string note = 46;       // 描述
+
+}
+
+message PartReference {
+    required int32 id = 1;
+    required string name = 2;
+	optional int32 lv_max = 3;					// 部件最大等级
+	optional int32 target_type = 4;				// 目标类型
+	optional int32 advantage_type = 5;			// 有利伤害目标类型
+	optional int32 disadvantage_type = 6;		// 不利伤害目标类型
+	optional int32 priority_target = 7;			// 优先目标
+	optional int32 cast_cond = 8;				// 释放条件
+	optional int32 cd = 9;						// 冷却时间
+	optional int32 effect_type = 10;			// 效果类型
+	optional int32 effect_val = 11;				// 效果值
+	optional int32 effect_val_growthrate = 12;	// 效果值成长率
+	optional int32 give_buff = 13;				// 增减益赋予
+	optional int32 skill_attach = 14;			// 附属技能
+	optional int32 ammo_num = 15;				// 弹药上限
+	optional int32 energy_cost = 16;			// 单次使用能量消耗值
+	optional int32 atk_range_max = 17;  		// 最大攻击距离
+	optional int32 atk_range_min = 18;			// 最小攻击距离
+	optional int32 atk_angle = 19;				// 攻击扇面角度
+	optional int32 guard_range = 20;			// 警戒攻击距离
+	optional int32 guard_angle = 21;			// 警戒扇面角度
+	optional int32 shape_type = 22;				// 效果形状样式
+	optional int32 aoe_range = 23;				// 范围效果半径
+	optional int32 radiate_len = 24;			// 效果放射长度
+	optional int32 radiate_wid = 25;			// 效果放射宽度
+	optional int32 missle_vel = 26;				// 子弹飞行速度
+	optional string cartoon_res = 27;			// 动画资源名
+	optional string iconfile = 28;				// 图标名
+	optional string note = 29;					// 描述
+
+}
+
+message SkillReference {
+    required int32 id = 1;
+    required string name = 2;
+	optional int32 skill_select_type = 3;	// 技能选取类型
+	optional int32 cast_target_type = 4;	// 目标类型
+	optional int32 advantage_type = 5;		// 有利伤害目标类型
+	optional int32 disadvantage_type = 6;	// 不利伤害目标类型
+	optional int32 cd = 7;					// 冷却时间
+	optional int32 skill_effect_type = 8;	// 技能效果类型
+	optional int32 effect_val = 9;			// 效果值
+	optional int32 give_buff = 10;			// 增减益赋予
+	optional int32 ammo_num = 11;			// 弹药上限
+	optional int32 energy_cost = 12;		// 单次使用能量消耗值
+	optional int32 cast_range = 13;			// 技能最大释放距离
+	optional int32 cast_angle = 14;			// 释放范围扇面角度
+	optional int32 shape_type = 15;			// 效果形状样式
+	optional int32 aoe_range = 16;			// 范围效果半径
+	optional int32 radiate_len = 17;		// 效果放射长度
+	optional int32 radiate_wid = 18;		// 效果放射宽度
+	optional int32 missle_vel = 19;			// 子弹飞行速度
+	optional string cartoon_res = 20;		// 动画资源名
+	optional string iconfile = 21;			// 图标名
+	optional string note = 22;				// 描述
+
+}
+
+message ShuttleReference {
+    required int32 id = 1;
+    required string name = 2;
+}
+
+message ShuttleTeamReference {
+    required int32 id = 1;
+    required string name = 2;
+}
+
+message PartsReplaceTeamReference {
+    required int32 id = 1;
+    required string name = 2;
+}
+
+message BuffReference {
+    required int32 id = 1;
+    required string name = 2;
+	optional int32 bufftype = 3;		// 类型
+	optional int32 effect_val = 4;		// 效果值
+	optional int32 intervaltime = 5;	// 间隔作用时间
+	optional int32 time = 6;			// 持续时间
+	optional string cartoon_res = 7;	// 动画资源名
+	optional string explain = 8;		// 效果说明
+
+}
+
+message DefensiveUnitsReference {
+    required int32 id = 1;
+    required string name = 2;
+	optional int32 units_res_id = 3;	// 单位表中编号
+	optional string explain = 4;		// 说明
+
+}
+
+message ReferenceManager {
+    repeated UnitReference units_res = 1;
+	repeated PartReference parts_res = 2;
+	repeated SkillReference skill_res = 3;
+	repeated ShuttleReference shuttle_res = 4;
+	repeated ShuttleTeamReference shuttle_team_res = 5;
+	repeated PartsReplaceTeamReference parts_replace_team_res = 6;
+	repeated BuffReference buff_res = 7;
+	repeated DefensiveUnitsReference defensive_units_res = 8;
+}

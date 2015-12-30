@@ -1,0 +1,97 @@
+package proto;
+import "config.proto";
+
+
+// 玩家 指挥官
+message Player{
+	optional int32  sn    = 1;//唯一表示
+    optional string name  = 2;//指挥官名字
+    optional int32  gold  = 3;//游戏币
+    optional int32  coins = 4;//钻石
+    optional int32  level = 5;//等级
+}
+
+
+// 部件
+message Parts{
+	optional int32 id = 1; // 部件ID
+	optional int32 level = 2; // 等级
+}
+
+// 舰艇
+message Ship{
+	optional int32 id = 1; // 舰船ID
+	optional int32 level = 2; // 等级
+}
+
+// 技能效果
+message SkillEffect{
+	optional int32 targetid = 1; // 目标ID
+	optional int32 val = 2;      // 效果值 负值为伤害量 正值为治疗量
+}
+
+// 使用技能
+message UseSkill{
+	required int32 skillid = 1;      // 技能ID
+	required int32 skillstage = 2;   // 技能阶段  (吟唱,结算)
+	repeated SkillEffect skilleffects = 3;  // 技能效果
+}
+
+// 单位位置
+message UnitPos{
+	required int32 posx = 1;         // 当前X坐标
+	required int32 posz = 2;         // 当前z坐标
+}
+
+// 部件开火事件
+message PartFireEvent{
+	required int32 partid = 1;      // 部件ID
+	repeated PartFireInfo fireinfo = 2;  // 具体的信息列表，因为部件也可能会打多个目标（后续扩展）
+}
+
+// 部件开火效果
+message PartFireInfo{
+	required int32 targetid = 1;    // 目标ID
+	optional int32 delayframe = 2;  // 延时帧数
+	optional int32 val        = 3;  // 立即生效
+}
+
+// 部件效果值 
+message EffectVal{
+	required int32 casterunitid = 1;    // 开火单位的ID
+	required int32 partid       = 2;    // 开火单位的部件的ID
+	optional int32 val          = 3;    // 效果值
+}
+
+// 舰船行为
+message ShipUnitBehavior{
+    required UnitPos  position = 1;    // 当前位置
+	repeated PartFireEvent partfireevent = 2;    // 部件开火
+	repeated UseSkill useskill = 3;    // 旗舰技能 部件攻击表现都用这个
+	repeated EffectVal beatkffect = 4; // 当前帧触发的延迟伤害（导弹，鱼雷，火炮子弹）
+}
+
+
+// 子弹行为(目前就导弹类需要创建这个对象)
+message BulletBehavior{
+	required UnitPos position = 1;  //当前位置
+}
+
+// Buff行为
+message BuffBehavior{
+	required int32 ownerid = 1;    // 宿主ID
+}
+
+// 单位行为
+message UnitBehavior{
+	enum UnitType{
+		ship = 1;     // 舰船
+		bullet = 2;   // 子弹 （导弹鱼雷类的实体对象）
+		buff = 3;     // buff 技能产生的buff
+	}
+	required int32 unitid = 1;  // 战斗单位ID
+	optional UnitType unittype = 2; // 单位类型
+	optional ShipUnitBehavior shipbehavior = 3;
+	optional BulletBehavior   bulletbehavior = 4;
+	optional BuffBehavior	  buffbehavior   = 5;
+}

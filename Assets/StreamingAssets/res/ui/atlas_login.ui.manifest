@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 1353258188
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4afeddeb7791a809e0c5d8a12bd13c82
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00ffc586b3c4c12c72c7fed589b81235
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/UI/public/atlas/login/icon_logo.png
+- Assets/UI/public/atlas/login/button_play_2.png
+- Assets/UI/public/atlas/login/icon_select_2.png
+- Assets/UI/public/atlas/login/icon_play.png
+- Assets/UI/public/atlas/login/button_play_1.png
+- Assets/UI/public/atlas/login/icon_finger_1.png
+- Assets/UI/public/atlas/login/icon_select_3.png
+- Assets/UI/public/atlas/login/stretch_2.png
+- Assets/UI/public/atlas/login/icon_finger_2.png
+Dependencies: []

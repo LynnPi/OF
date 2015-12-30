@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 3912639959
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 320b19773b32ef8831a64159ccdd7787
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d79d804df4049f4c5c753f21f16d52c1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/OF_res/ef/textures/T_EFX_Flare_Long_01.png
+- Assets/Models_Library/SC-DFND01M/Materials/SC-DFND01G.mat
+- Assets/OF_res/ef/material/D_M_star_03.mat
+- Assets/Models_Library/SC-DFND01M/SC-DFND01M.FBX
+- Assets/Models/SC-DFND01M.prefab
+- Assets/Models_Library/SC-DFND01M/SC-DFND01M.tga
+Dependencies: []

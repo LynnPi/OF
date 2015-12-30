@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 1433905438
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c067d8f1d9e577a10fdf359a8548568f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c248d0ba733e1ed887bd06d462493411
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+Assets:
+- Assets/root/ef/animation/shpere.controller
+- Assets/root/model/Materials/phong1.mat
+- Assets/root/model/shpere.FBX
+- Assets/root/ef/physics_shield.prefab
+- Assets/root/ef/textures/ring02.png
+- Assets/root/ef/material/ring03.mat
+- Assets/root/scenes/textures/Glow_01.tga
+- Assets/Shaders/Additive2Layer.shader
+- Assets/root/ef/material/ring02.mat
+- Assets/root/ef/textures/0000128.tga
+- Assets/root/ef/animation/physics_shield.anim
+Dependencies: []

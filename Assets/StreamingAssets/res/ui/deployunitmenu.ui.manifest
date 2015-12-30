@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 3914943426
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fdbde173f042832037fabad90fd194e9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d8f6990e5321efcaf81a2b69b14f6415
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+Assets:
+- Assets/UI/panel/deploy_unit_menu/animation/Unit_Menu.anim
+- Assets/UI/panel/deploy_unit_menu/animation/DeployUnitMenu.controller
+- Assets/UI/panel/deploy_unit_menu/DeployUnitMenu.prefab
+- Assets/UI/panel/deploy_unit_menu/animation/unit_menu_showing.anim
+Dependencies:
+- D:/__WorkSpace/WorkSpace/OmniverseFrontier/GameRes/trunk/android/res/ui/atlas_deploy.ui

@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 1132044072
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f8d472d913ed901168edf15be661e641
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1b429c18069504f0f0adcc7c13309486
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -1200242548, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/UI/panel/battle_skill_panel/skill_btn/animation/skill_able.anim
+- Assets/UI/panel/battle_skill_panel/skill_btn/animation/fire_pressed.controller
+- Assets/UI/panel/battle_skill_panel/skill_btn/animation/skill_selected.anim
+- Assets/UI/panel/battle_skill_panel/skill_btn/animation/skill_disable.anim
+- Assets/UI/panel/battle_skill_panel/skill_btn/animation/skill_cool.anim
+- Assets/UI/panel/battle_skill_panel/skill_btn/BattleSkillButton.prefab
+- Assets/UI/panel/battle_skill_panel/skill_btn/animation/SkillButton.controller
+Dependencies:
+- D:/__WorkSpace/WorkSpace/OmniverseFrontier/GameRes/trunk/android/res/ui/public.ui
+- D:/__WorkSpace/WorkSpace/OmniverseFrontier/GameRes/trunk/android/res/ui/atlas_battle.ui

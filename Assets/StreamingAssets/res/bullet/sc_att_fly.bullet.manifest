@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 1806653062
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5cbc3adfb76ebae97e8a6898df5eee0c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 86b3ae5936608c1b729c8aa586b93ef3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 96
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/OF_res/ef/textures/000232.tga
+- Assets/OF_res/ef/BulletPrefabs/sc_att_fly.prefab
+- Assets/OF_res/ef/textures/T_D_fx_light_024.png
+- Assets/OF_res/ef/material/M_lizhi01.mat
+- Assets/OF_res/ef/material/guang06.mat
+Dependencies: []

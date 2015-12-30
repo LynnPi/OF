@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 2437842510
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 67af4d87aa6517d22368e5bc87ea4881
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00cf2127518eb3c3fbf51427f59966fa
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/OF_res/ef/ls_sing.prefab
+- Assets/OF_res/ef/material/D_M_star_23.mat
+- Assets/OF_res/ef/textures/T_D_fx_star_10.png
+- Assets/OF_res/ef/material/M_shandian06.mat
+- Assets/OF_res/ef/textures/ring02.png
+- Assets/OF_res/ef/textures/32.tga
+- Assets/OF_res/ef/material/M_ring_01.mat
+- Assets/OF_res/ef/material/M_fire_02.mat
+- Assets/OF_res/ef/textures/shandian_01_00000.png
+Dependencies: []

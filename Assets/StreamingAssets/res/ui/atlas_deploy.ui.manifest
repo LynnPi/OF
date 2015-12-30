@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 3041300842
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5fbbe5a7e4595558096f8ddc12350e81
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00ffc586b3c4c12c72c7fed589b81235
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/UI/public/atlas/deploy/button_Function.png
+- Assets/UI/public/atlas/deploy/button_Prompt.png
+- Assets/UI/public/atlas/deploy/icon_fleet_1.png
+- Assets/UI/public/atlas/deploy/icon_cancel_2.png
+- Assets/UI/public/atlas/deploy/stretch_energy.png
+- Assets/UI/public/atlas/deploy/icon_start.png
+- Assets/UI/public/atlas/deploy/stretch_title_3.png
+- Assets/UI/public/atlas/deploy/stretch_line.png
+- Assets/UI/public/atlas/deploy/icon_cancel_1.png
+- Assets/UI/public/atlas/deploy/icon_deploy.png
+- Assets/UI/public/atlas/deploy/icon_substrate.png
+- Assets/UI/public/atlas/deploy/icon_base.png
+- Assets/UI/public/atlas/deploy/icon_home.png
+- Assets/UI/public/atlas/deploy/icon_jt.png
+- Assets/UI/public/atlas/deploy/icon_fleet_3.png
+- Assets/UI/public/atlas/deploy/icon_fleet_2.png
+- Assets/UI/public/atlas/deploy/icon_zone.png
+Dependencies: []

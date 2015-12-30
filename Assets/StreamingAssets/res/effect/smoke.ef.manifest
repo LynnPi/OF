@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 3984600837
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1d71ce2629156cab1ee0e9a63c9e5b6b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00cf2127518eb3c3fbf51427f59966fa
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/root/ef/material/M_hui05.mat
+- Assets/root/ef/textures/000232.tga
+- Assets/root/ef/textures/fog01.png
+- Assets/root/ef/material/M_lizhi01.mat
+- Assets/root/ef/smoke.prefab
+Dependencies: []

@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 604065298
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fbd3c0abf037253ce09e59e08173bfda
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b48db096b2a62e46d348ba3c18d31033
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/OF_res/ef/material/M_baozhi_T 3.mat
+- Assets/OF_res/ef/sc_att_hit02.prefab
+- Assets/OF_res/ef/textures/fog01.png
+- Assets/OF_res/ef/mesh/mesh_22.FBX
+- Assets/OF_res/ef/textures/32.tga
+- Assets/OF_res/ef/material/M_fire_02.mat
+- Assets/OF_res/ef/material/M_hui04.mat
+- Assets/OF_res/ef/textures/000110.png
+- Assets/OF_res/ef/mesh/Materials/No Name.mat
+Dependencies: []
